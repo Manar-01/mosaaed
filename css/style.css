@@ -1,10 +1,11 @@
 .nav-link{
     color: #13042D;
+    font-size: 20px;   
 }
 .btn{
 position: absolute;
 left: 565px;
-top: 1450px;
+top: 1750px;
 width: 13em;
 height: 3em;
 background: #5B25B2;
@@ -12,20 +13,29 @@ box-shadow: 0px 2.9566px 2.9566px rgba(0, 0, 0, 0.25), inset 0px 1.4783px 2.9566
 border-radius: 30px;
 }
 footer{
+    margin-top: 12em;
+    padding: 3em 0em;
+    text-align:right;
     background: #3C1877;
 }
 .footer{
-    /* مساعِد يرحّب و يسعد بتواصلكم معه ! */
-
-font-family: 'Tajawal';
-font-style: normal;
+/* مساعِد يرحّب و يسعد بتواصلكم معه ! */
 font-weight: 700;
 font-size: 27px;
 line-height: 43px;
-text-align: right;
-color: #FFFFFF;
+
+}
+.footer-text{
+    font-family: 'Tajawal';
+    font-style: normal;
+    line-height: 43px;
+    color: #FFFFFF;
+    margin: 3em 0;
 }
 .icon{
     width: 52px;
     height: 52px;;
+}
+.gap{
+    padding-top: 18em;;
 }
