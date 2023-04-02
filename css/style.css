@@ -75,3 +75,11 @@ line-height: 43px;
     border-color: #EBEBEB;
     color: #A7A3A3;;
   }
+  .about-text{
+    text-align: right;
+    margin-top: 15em;
+  }
+  .about-text b{
+    font-size: 28px;
+    color: #3C1877;S
+  }
