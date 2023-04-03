@@ -81,5 +81,35 @@ line-height: 43px;
   }
   .about-text b{
     font-size: 28px;
-    color: #3C1877;S
+    color: #3C1877
   }
+  .header{
+    border-color: #3C1877;
+  }
+  .btn{
+    box-sizing: border-box;
+    width: 170px;
+    height: 44px;
+    left: 666px;
+    top: 631px; 
+    background: #F9F3FF;
+    border: 2px solid #18B087;
+    border-radius: 20px;
+    }
+    .btn:hover{
+      box-shadow: 30px rgba(0, 0, 0, 0.02);
+      color: #ffffff;
+      box-sizing: border-box;
+      width: 170px;
+      height: 44px;
+      left: 666px;
+      top: 631px; 
+      background: #18B087;
+      border: 2px solid #F9F3FF;
+      border-radius: 20px;
+      }
+      .justify{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
