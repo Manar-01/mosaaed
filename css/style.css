@@ -157,6 +157,9 @@ footer a {
   margin-top: 10%;
   background-color: #F9F3FF;
 }
+.alert_input{
+  border-color: red;
+}
 
 /* modal and its animate and close button*/
 .modal {

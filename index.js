@@ -39,8 +39,19 @@ function flip(element, n) {
         }
     }
 }
-function club() {
-    if (window.location.hash == '#id02') {
+
+function forms_1(){
+    var form_element = document.getElementsByClassName("form-control");
+    var lock = false;
+    for (let index = 0; index < form_element.length; index++) {
+        if(form_element[index].value == ''){
+            form_element[index].classList.add('alert_input');
+            lock = true;
+        }   
+    }
+    if (!lock){
+        document.getElementById('id01').style.display = 'none';
         document.getElementById('id02').style.display = 'block';
     }
+    
 }
