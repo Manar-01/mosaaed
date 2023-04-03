@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>كل الأندية</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -48,40 +50,43 @@
             <div class="col">
                 <span>:اختر المجال</span>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      حضوري أو اونلاين
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        حضوري أو اونلاين
                     </button>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">حضوري</a></li>
-                      <li><a class="dropdown-item" href="#">اونلاين</a></li>
+                        <li><a class="dropdown-item" href="#">حضوري</a></li>
+                        <li><a class="dropdown-item" href="#">اونلاين</a></li>
                     </ul>
-                  </div>
+                </div>
             </div>
             <div class="col">
                 <span>:اختر الجامعة</span>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      كل الجامعات
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        كل الجامعات
                     </button>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#" onclick="filter('makkah');">جامعة أم القرى</a></li>
-                      <li><a class="dropdown-item" href="#"onclick="filter('riyadh');">جامعة الملك سعود</a></li>
-                      <li><a class="dropdown-item" href="#" onclick="filter('jeddah');">جامعة الملك عبدالعزيز</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="filter('makkah');">جامعة أم القرى</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="filter('riyadh');">جامعة الملك سعود</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="filter('jeddah');">جامعة الملك عبدالعزيز</a></li>
                     </ul>
-                  </div>
+                </div>
             </div>
             <div class="col">
                 <span>:اختر المدينة</span>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      كل المدن
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        كل المدن
                     </button>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#"onclick="filter('makkah');">مكة المكرمة</a></li>
-                      <li><a class="dropdown-item" href="#"onclick="filter('riyadh');">الرياض</a></li>
-                      <li><a class="dropdown-item" href="#"onclick="filter('jeddah');">جدة</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="filter('makkah');">مكة المكرمة</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="filter('riyadh');">الرياض</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="filter('jeddah');">جدة</a></li>
                     </ul>
-                  </div>
+                </div>
             </div>
         </div>
     </div>
@@ -90,9 +95,9 @@
         <div class="row row-cols-3 list">
             <div class="col col-card makkah">
                 <div class="card" style="width: 18rem;">
-                    <img src="images/cs_makkah.jpg" class="card-img-top" alt="...">
+                    <img src="images/google.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">نادي الحاسب الألي</h5>
+                        <h5 class="card-title">نادي قوقل للطلبه المطوّرين</h5>
                         <img src="images/location 2.png" alt="">
                         <span class="card-text">مكة</span>
                     </div>
@@ -109,10 +114,10 @@
                 </div>
             </div>
             <div class="col col-card makkah">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/google.jpg" class="card-img-top" alt="...">
+                <div class="card" style="width: 18rem;" onclick="location.replace('club.html')">
+                    <img src="images/cs_makkah.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">نادي قوقل للطلبه المطوّرين</h5>
+                        <h5 class="card-title">نادي الحاسب الألي</h5>
                         <img src="images/location 2.png" alt="">
                         <span class="card-text">مكة</span>
                     </div>
@@ -182,31 +187,33 @@
             </div>
         </div>
     </div>
-        <div class="row  text-center">
-            <div class="col">
-                <a><img id="more" src="images/more.png" alt="" style="width: 25%;" onclick="more();"></a>
-            </div>
+    <div class="row  text-center">
+        <div class="col">
+            <a><img id="more" src="images/more.png" alt="" style="width: 25%;" onclick="more();"></a>
         </div>
+    </div>
 
-            <footer>
-                <div class="container">
-                    <div class="row align-items-start">
-                        <div class="col">
-                            <b class="footer footer-text">مساعِد يرحّب و يسعد بتواصلكم معه</b>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col" style="text-align: center;">
-                            <img class="icon img-fluid" src="images/email.png" alt="">
-                            <a target="_blank" href="mailto: Mosaaed.helper@gmail.com"><b class="footer-text">Mosaaed.helper@gmail.com</b></a>
-                        </div>
-                        <div class="col" style="text-align: center;">
-                            <img class="icon img-fluid" src="images/twitter.png" alt="">
-                            <a target="_blank" href="https://twitter.com/MosaaedHelper"><b class="footer-text">@MosaaedHelper</b></a>
-                        </div>
-                    </div>
-            </footer>
-            <script src="index.js"></script>
+    <footer>
+        <div class="container">
+            <div class="row align-items-start">
+                <div class="col">
+                    <b class="footer footer-text">مساعِد يرحّب و يسعد بتواصلكم معه</b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="text-align: center;">
+                    <img class="icon img-fluid" src="images/email.png" alt="">
+                    <a target="_blank" href="mailto: Mosaaed.helper@gmail.com"><b
+                            class="footer-text">Mosaaed.helper@gmail.com</b></a>
+                </div>
+                <div class="col" style="text-align: center;">
+                    <img class="icon img-fluid" src="images/twitter.png" alt="">
+                    <a target="_blank" href="https://twitter.com/MosaaedHelper"><b
+                            class="footer-text">@MosaaedHelper</b></a>
+                </div>
+            </div>
+    </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>

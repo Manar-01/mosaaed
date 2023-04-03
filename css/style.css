@@ -1,115 +1,250 @@
-body{
-    font-family: 'Tajawal';
-    font-style: normal;
-    color: #13042D;
-    text-align: right;
+body {
+  font-family: 'Tajawal';
+  font-style: normal;
+  color: #13042D;
+  text-align: right;
 }
-.nav-link{
-    color: #13042D;
-    font-size: 20px;   
+
+.nav-link {
+  color: #13042D;
+  font-size: 20px;
 }
-.btn-1{
-position: absolute;
-left: 565px;
-top: 1550px;
-width: 13em;
+
+.btn-1 {
+  position: absolute;
+  left: 565px;
+  top: 450px;
+  width: 13em;
+  height: 3em;
+  background: #5B25B2;
+  box-shadow: 0px 2.9566px 2.9566px rgba(0, 0, 0, 0.25), inset 0px 1.4783px 2.9566px rgba(255, 255, 255, 0.25), inset 0px -1.4783px 2.9566px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+footer {
+  margin-top: 12em;
+  padding: 3em 0em;
+  text-align: right;
+  background: #3C1877;
+}
+
+.footer {
+  /* مساعِد يرحّب و يسعد بتواصلكم معه ! */
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 43px;
+
+}
+
+.footer-text {
+  line-height: 43px;
+  color: #FFFFFF;
+  margin: 3em 0;
+}
+
+.icon {
+  width: 52px;
+  height: 52px;
+  ;
+}
+
+.gap {
+  padding-top: 18em;
+  ;
+}
+
+.list {
+  margin: 5em 0 3em;
+}
+
+.card {
+  box-shadow: 6px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2em;
+  background-color: #F9F3FF;
+  text-align: center;
+  margin: 3em 0;
+}
+
+.card:hover {
+  box-shadow:
+    0px 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0px 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0px 12.5px 10px rgba(0, 0, 0, 0.06),
+    0px 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0px 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0px 100px 80px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.card-img-top {
+  border-radius: 2em;
+}
+#more:hover{
+  cursor:pointer;
+}
+footer a {
+  text-decoration: none;
+}
+
+.dropdown-toggle {
+  background: #EBEBEB;
+  border-color: #EBEBEB;
+  color: #A7A3A3;
+  ;
+}
+
+.about-text {
+  text-align: right;
+  margin-top: 15em;
+}
+
+.about-text b {
+  font-size: 28px;
+  color: #3C1877
+}
+
+.header {
+  border-color: #3C1877;
+}
+.card-des{
+  font-size: small;
+}
+.card-1{
+  height: 30em;
+}
+
+.btn-2 {
+  box-sizing: border-box;
+  width: 170px;
+  height: 44px;
+  left: 666px;
+  top: 631px;
+  background: #F9F3FF;
+  border: 2px solid #18B087;
+  border-radius: 20px;
+}
+
+.btn-2:hover {
+  box-shadow: 30px rgba(0, 0, 0, 0.02);
+  color: #ffffff;
+  box-sizing: border-box;
+  width: 170px;
+  height: 44px;
+  left: 666px;
+  top: 631px;
+  background: #18B087;
+  border: 2px solid #F9F3FF;
+  border-radius: 20px;
+}
+.active-1{
+  color: #ffffff;
+  background: #18B087;
+  border: 2px solid #F9F3FF;
+}
+
+.justify {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.alert{
+  margin-top: 10%;
+  background-color: #F9F3FF;
+}
+
+/* modal and its animate and close button*/
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/*modal content*/
+.modal-content {
+  margin: 5% auto 15% auto;
+  width: 40%;
+  background-color: #ffffff;
+}
+
+/* The Close Button for modal */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+.form-control{
+  text-align: right;
+  margin-bottom: 5%;
+}
+
+.modal-content .container{
+  width: 75%;
+  padding: 5% 0;
+}
+.form-select{
+  text-align: right;
+}
+.btn-3{
+  width: 13em;
 height: 3em;
 background: #5B25B2;
 box-shadow: 0px 2.9566px 2.9566px rgba(0, 0, 0, 0.25), inset 0px 1.4783px 2.9566px rgba(255, 255, 255, 0.25), inset 0px -1.4783px 2.9566px rgba(0, 0, 0, 0.25);
 border-radius: 30px;
+margin-top: 25%;
 }
-footer{
-    margin-top: 12em;
-    padding: 3em 0em;
-    text-align:right;
-    background: #3C1877;
+label{
+  text-align: right;
+  color: #5B25B2;
 }
-.footer{
-/* مساعِد يرحّب و يسعد بتواصلكم معه ! */
-font-weight: 700;
-font-size: 27px;
-line-height: 43px;
-
-}
-.footer-text{
-    line-height: 43px;
-    color: #FFFFFF;
-    margin: 3em 0;
-}
-.icon{
-    width: 52px;
-    height: 52px;;
-}
-.gap{
-    padding-top: 18em;;
-}
-.list{
-    margin: 5em 0 3em;
-}
-
-.card {
-    box-shadow: 6px 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 2em;
-    background-color:#F9F3FF;
-    text-align: center;
-    margin: 3em 0;
-  }
-  
-  .card:hover {
-    box-shadow:
-      0px 2.8px 2.2px rgba(0, 0, 0, 0.034),
-      0px 6.7px 5.3px rgba(0, 0, 0, 0.048),
-      0px 12.5px 10px rgba(0, 0, 0, 0.06),
-      0px 22.3px 17.9px rgba(0, 0, 0, 0.072),
-      0px 41.8px 33.4px rgba(0, 0, 0, 0.086),
-      0px 100px 80px rgba(0, 0, 0, 0.12);
-  }
-  .card-img-top{
-    border-radius: 2em;
-  }
-  footer a{
-    text-decoration: none;
-  }
-  .dropdown-toggle{
-    background: #EBEBEB;
-    border-color: #EBEBEB;
-    color: #A7A3A3;;
-  }
-  .about-text{
-    text-align: right;
-    margin-top: 15em;
-  }
-  .about-text b{
-    font-size: 28px;
-    color: #3C1877
-  }
-  .header{
-    border-color: #3C1877;
-  }
-  .btn{
-    box-sizing: border-box;
-    width: 170px;
-    height: 44px;
-    left: 666px;
-    top: 631px; 
-    background: #F9F3FF;
-    border: 2px solid #18B087;
-    border-radius: 20px;
-    }
-    .btn:hover{
-      box-shadow: 30px rgba(0, 0, 0, 0.02);
-      color: #ffffff;
-      box-sizing: border-box;
-      width: 170px;
-      height: 44px;
-      left: 666px;
-      top: 631px; 
-      background: #18B087;
-      border: 2px solid #F9F3FF;
-      border-radius: 20px;
-      }
-      .justify{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-      }
