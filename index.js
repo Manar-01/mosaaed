@@ -39,7 +39,7 @@ function flip(element, n) {
         }
     }
 }
-window.onload = function () {
+function club() {
     if (window.location.hash == '#id02') {
         document.getElementById('id02').style.display = 'block';
     }
