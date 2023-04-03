@@ -19,13 +19,13 @@ function more() {
     document.getElementById("more").hidden = true;
 }
 
-function flip(element,n){
+function flip(element, n) {
     var btn = document.getElementsByClassName("btn-2");
     for (let index = 0; index < btn.length; index++) {
         if (btn[index] === element) {
             element.classList.add("active-1");
         }
-        else{
+        else {
             btn[index].classList.remove("active-1");
         }
     }
@@ -34,13 +34,13 @@ function flip(element,n){
         if (index == n) {
             container[index].hidden = false;
         }
-        else{
+        else {
             container[index].hidden = true;
         }
     }
 }
-window.onload = function(){
-    if(window.location.hash=='#id02'){
-        document.getElementById('id02').style.display='block';
+window.onload = function () {
+    if (window.location.hash == '#id02') {
+        document.getElementById('id02').style.display = 'block';
     }
 }

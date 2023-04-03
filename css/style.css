@@ -79,9 +79,11 @@ footer {
 .card-img-top {
   border-radius: 2em;
 }
-#more:hover{
-  cursor:pointer;
+
+#more:hover {
+  cursor: pointer;
 }
+
 footer a {
   text-decoration: none;
 }
@@ -106,10 +108,12 @@ footer a {
 .header {
   border-color: #3C1877;
 }
-.card-des{
+
+.card-des {
   font-size: small;
 }
-.card-1{
+
+.card-1 {
   height: 30em;
 }
 
@@ -136,7 +140,8 @@ footer a {
   border: 2px solid #F9F3FF;
   border-radius: 20px;
 }
-.active-1{
+
+.active-1 {
   color: #ffffff;
   background: #18B087;
   border: 2px solid #F9F3FF;
@@ -148,7 +153,7 @@ footer a {
   justify-content: center;
 }
 
-.alert{
+.alert {
   margin-top: 10%;
   background-color: #F9F3FF;
 }
@@ -224,27 +229,31 @@ footer a {
     transform: scale(1)
   }
 }
-.form-control{
+
+.form-control {
   text-align: right;
   margin-bottom: 5%;
 }
 
-.modal-content .container{
+.modal-content .container {
   width: 75%;
   padding: 5% 0;
 }
-.form-select{
+
+.form-select {
   text-align: right;
 }
-.btn-3{
+
+.btn-3 {
   width: 13em;
-height: 3em;
-background: #5B25B2;
-box-shadow: 0px 2.9566px 2.9566px rgba(0, 0, 0, 0.25), inset 0px 1.4783px 2.9566px rgba(255, 255, 255, 0.25), inset 0px -1.4783px 2.9566px rgba(0, 0, 0, 0.25);
-border-radius: 30px;
-margin-top: 25%;
+  height: 3em;
+  background: #5B25B2;
+  box-shadow: 0px 2.9566px 2.9566px rgba(0, 0, 0, 0.25), inset 0px 1.4783px 2.9566px rgba(255, 255, 255, 0.25), inset 0px -1.4783px 2.9566px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-top: 25%;
 }
-label{
+
+label {
   text-align: right;
   color: #5B25B2;
 }
