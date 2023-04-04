@@ -35,11 +35,16 @@
     </nav>
 
     <div class="container text-center">
+        <div>
+            <img id="sign" src="images/header.jpg" alt="" style="width: 80%; height: 60%;" />
+        </div>
         <div class="row">
-            <div class="header">
-                <img id="sign" src="images/header.jpg" alt="" style="width: 90%; height: 50%;" />
-                <!--<img id="sign" src="images/cs_logo.jpg" alt="" style="width: 50%; height: 50%;"/> -->
-                <br /> <br />
+            <div class="col">
+                <img class="avatar" src="images/cs_logo.jpg" alt="" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
                 <p style="font-size: 24px;">نادي الحاسب الآلي</p>
             </div>
         </div>
@@ -49,12 +54,23 @@
         </div>
 
         <div class="row justify">
-            <img id="sign" src="images/info.PNG" alt="" style="width: 75%;" />
+            <div class="col">
+                <b> نوعه : <span class="info">حضوري و اونلاين</span> </b>
+            </div>
+
+            <div class="col">
+                <b> الجامعة : <span class="info">أم القرى</span> </b>
+            </div>
+
+            <div class="col">
+                <b> المدينة : <span class="info">مكة المكرمة</span> </b>
+            </div>
+
         </div>
 
         <div class="row">
             <div class="col">
-                <a href="#id01"><img id="sign" src="images/Sign.PNG" alt="" style="width: 25%;"
+                <a href="#id01"><img id="sign" src="images/Sign.PNG" alt="" style="width: 25%; margin-top: 2em;"
                         onclick="document.getElementById('id01').style.display='block';"></a>
             </div>
         </div>
@@ -63,43 +79,52 @@
             <span onclick="document.getElementById('id01').style.display='none'" class="close"
                 title="Close Modal">&times;</span>
             <div class="modal-content animate">
-                    <div class="container">
-                        <div class="row">
-                            <label for="user_name"> :اسمك بالكامل</label>
-                        </div>
-                        <div class="row">
-                            <input class="form-control" type="text" autofocus required>
-                        </div>
-                        <div class="row">
-                            <label for="pasword"> :البريد الالكتروني</label>
-                        </div>
-                        <div class="row">
-                            <input class="form-control" type="email" required>
-                        </div>
-                        <div class="row">
-                            <label for="pasword"> :رقم الجوال</label>
-                        </div>
-                        <div class="row">
-                            <input class="form-control" type="phone" required>
-                        </div>
-                        <div class="row">
-                            <label for="pasword"> :اللجنة اللي حاب تنضم لها</label>
-                        </div>
-                        <div class="row">
-                            <select class="form-select">
-                                <option selected>العلمية</option>
-                                <option>الإعلامية</option>
-                                <option>شؤون الأعضاء</option>
-                                <option>العلاقات العامة</option>
-                            </select>
-                        </div>
-
-                        <div class="row text-center">
-                            <div class="col">
-                                <input class="btn btn-primary btn-3" type="submit" value="🤩سجل" onclick="forms_1()">
-                            </div>
+                <div class="container">
+                    <div class="row">
+                        <label for="user_name"> :اسمك بالكامل</label>
+                    </div>
+                    <div class="row">
+                        <input class="form-control" type="text" autofocus required>
+                    </div>
+                    <div class="row">
+                        <label for="pasword"> :البريد الالكتروني</label>
+                    </div>
+                    <div class="row">
+                        <input class="form-control" type="email" required>
+                    </div>
+                    <div class="row">
+                        <label for="pasword"> :رقم الجوال</label>
+                    </div>
+                    <div class="row">
+                        <input class="form-control" type="phone" required>
+                    </div>
+                    <div class="row">
+                        <label for="pasword"> :اللجنة اللي حاب تنضم لها</label>
+                    </div>
+                    <div class="row">
+                        <select class="form-select">
+                            <option selected>العلمية</option>
+                            <option>الإعلامية</option>
+                            <option>شؤون الأعضاء</option>
+                            <option>العلاقات العامة</option>
+                        </select>
+                    </div>
+                    <div class="row" style="margin-top: 2em;">
+                        <div class="col">
+                            <a href="https://twitter.com/uqucc?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                                    src="images/twitter-1.png" alt="" width="25" height="25"></a>
+                            <b>
+                                حاب تعرف أكثر عن النادي؟
+                            </b>
                         </div>
                     </div>
+
+                    <div class="row text-center">
+                        <div class="col">
+                            <input class="btn btn-primary btn-3" type="submit" value="🤩سجل" onclick="forms_1()">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -162,7 +187,7 @@
         <div hidden class="container container-1">
             <div class="row">
                 <div class="col col-card">
-                    <div class="card card-1" style="width: 18rem;">
+                    <div class="card card-2" style="width: 18rem;">
                         <img src="images/AIandCyber.jpg" class="card-img-top" width="300" height="300" alt="...">
                         <div class="card-body">
                             <p class="card-des">أقوى مجالين في عالم التقنية
@@ -178,7 +203,7 @@
                     </div>
                 </div>
                 <div class="col col-card">
-                    <div class="card card-1" style="width: 18rem;">
+                    <div class="card card-2" style="width: 18rem;">
                         <img src="images/Mosaef.jpg" width="300" height="300" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-des">مهما كان التخصص
@@ -195,7 +220,7 @@
                     </div>
                 </div>
                 <div class="col col-card">
-                    <div class="card card-1" style="width: 18rem;">
+                    <div class="card card-2" style="width: 18rem;">
                         <img src="images/restart.jpg" width="300" height="300" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-des">قـبل ما تبدأ ضغط الدراسة
@@ -214,7 +239,7 @@
             </div>
             <div class="row">
                 <div hidden class="col col-card">
-                    <div class="card card-1" style="width: 18rem;">
+                    <div class="card card-2" style="width: 18rem;">
                         <img src="images/thaqef.jpg" width="300" height="300" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-des">بالقراءة غذي عقلك
@@ -229,7 +254,7 @@
                     </div>
                 </div>
                 <div hidden class="col col-card">
-                    <div class="card card-1" style="width: 18rem;">
+                    <div class="card card-2" style="width: 18rem;">
                         <img src="images/ketab.jpg" width="300" height="300" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-des">📚!مددٌ من المعرفة، وبحر من العلوم
@@ -240,7 +265,7 @@
                     </div>
                 </div>
                 <div hidden class="col col-card">
-                    <div class="card card-1" style="width: 18rem;">
+                    <div class="card card-2" style="width: 18rem;">
                         <img src="images/Elm.jpg" width="300" height="300" class="card-img-top" alt="...">
                         <div class="card-body">
                             <p class="card-des">الاختبارات النصفية قريبة
